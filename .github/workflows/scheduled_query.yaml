@@ -2,8 +2,8 @@ name: Query and Mark On-Leave
 
 on:
   schedule:
-    # run every 2 hours
-    - cron: "0 */2 * * *"
+    # run every 1 hours
+    - cron: "0 */1 * * *"
   workflow_dispatch:
 
 jobs:
